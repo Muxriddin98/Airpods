@@ -1,0 +1,126 @@
+@media (max-width: 1200px) {
+    .nav-search{
+        display: inline-block;
+    }
+
+    .nav-content, .main-cards{
+        padding: 0 15px;
+        
+    }
+
+    .main-title, .main-title2, .main-title3, .main-title4{
+       font-size: 18px;
+       line-height: 22px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .main-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 50px ;
+    }
+
+    .before-after{
+        padding: 50px;
+        display: ;
+    }
+
+    .main-title3{
+        display: flex;
+        margin-right: 0;
+        width: 75%;
+    }
+    .main-title4{
+        display: flex;
+        margin-left: 0;
+        width: 75%;
+    }
+
+    .before-after::after, .before-after::before{
+        display: none;
+    }
+
+    .main-boxes{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        grid-template-rows:repeat(4, 1fr) ; 
+        gap:20px;
+        padding: 0 15px;
+    }
+
+    .main-box:nth-last-of-type(1){
+        grid-column: span 2;
+        grid-row: span 2;
+        max-width: 100%;
+    }
+    .main-box:nth-last-of-type(2){
+        grid-column: span 2;
+        grid-row: span 2;
+        max-width: 100%;
+    }
+    .main-box:nth-last-of-type(3){
+        grid-column: span 2;
+        grid-row: span 2;
+        max-width: 100%;
+    }
+    .main-box:nth-last-of-type(4){
+        grid-column: span 2;
+        grid-row: span 2;
+        max-width: 100%;
+    }
+
+    .airpods-parts{
+        width: 100%;
+    }
+
+    .footer-content{
+        display: flex;
+        padding: 60px 15px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    
+
+    
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .nav-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .header-title{
+        align-items: center;
+        font-size: 50px;
+    }
+   .main-boxes{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+   }
+
+   .footer-content{
+       flex-direction: column;
+   }
+
+
+}
+
+
+
+
